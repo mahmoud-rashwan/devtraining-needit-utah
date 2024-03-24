@@ -17,8 +17,12 @@
         <number_ref display_value="NI">1e427f010fe83200cd674f8ce1050e8b</number_ref>
         <provider_class/>
         <read_access>true</read_access>
+<<<<<<< HEAD:update/sys_db_object_8df088cadb342010d2f6f9341d9619c7.xml
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">7fd7fda470002010d152c959a69db5ef</super_class>
+=======
+        <super_class display_value="Task" name="task">782649434f122200a9e6f4934210c781</super_class>
+>>>>>>> origin/ApplicationProperties:update/sys_db_object_45007fcd0fa83200cd674f8ce1050ebc.xml
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

@@ -39,7 +39,11 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_in_email_action_f80563330f02f2000d030dbce1050ee7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
+<<<<<<< HEAD
         <sys_updated_on>2017-05-03 20:52:31</sys_updated_on>
+=======
+        <sys_updated_on>2017-05-03 20:46:10</sys_updated_on>
+>>>>>>> origin/ApplicationProperties
         <table>x_58872_needit_needit_task</table>
         <template/>
         <type>reply</type>

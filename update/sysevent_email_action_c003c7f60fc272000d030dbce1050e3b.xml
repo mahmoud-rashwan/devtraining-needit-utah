@@ -5,7 +5,11 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+<<<<<<< HEAD
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+=======
+        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+>>>>>>> origin/ApplicationProperties
         <collection>x_58872_needit_needit_task</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -60,6 +64,10 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-14 19:31:52</sys_created_on>
+<<<<<<< HEAD
+=======
+        <sys_customer_update>false</sys_customer_update>
+>>>>>>> origin/ApplicationProperties
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c003c7f60fc272000d030dbce1050e3b</sys_id>
@@ -71,7 +79,11 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c003c7f60fc272000d030dbce1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
+<<<<<<< HEAD
         <sys_updated_on>2017-06-08 16:55:11</sys_updated_on>
+=======
+        <sys_updated_on>2017-06-08 16:32:57</sys_updated_on>
+>>>>>>> origin/ApplicationProperties
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
