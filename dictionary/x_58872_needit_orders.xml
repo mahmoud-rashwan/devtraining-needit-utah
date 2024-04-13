@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12ff808453250210aa9058e0a0490e31" extends="task" label="Orders" max_length="40" name="x_58872_needit_orders" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Catalog Offer Type" mandatory="true" max_length="40" name="u_catalog_offer_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Customer" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Standard" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Customer State" max_length="40" name="u_customer_state" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Closed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Accepted" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Clarification" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Pending Validation" sequence="6" value="7"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Order ID" mandatory="true" max_length="40" name="u_order_id" type="string" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Request Type" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Change" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Terminate" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Stage" max_length="40" name="u_stage" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Order Open" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Order in Progress" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Order Closed" sequence="2" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
