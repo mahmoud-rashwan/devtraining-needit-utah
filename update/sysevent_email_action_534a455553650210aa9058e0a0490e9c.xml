@@ -14,11 +14,21 @@
         <default_interval/>
         <description/>
         <digest_from/>
-        <digest_html/>
+        <digest_html><![CDATA[<p>&nbsp;</p>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>]]></digest_html>
         <digest_reply_to/>
         <digest_separator_html><![CDATA[<p>&nbsp;</p>
 <hr />
-<p>&nbsp;</p>]]></digest_separator_html>
+<p>&nbsp;</p>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
@@ -44,8 +54,12 @@
 <p>Order details</p>
 <p>Task Number: ${number}</p>
 <p>Order ID: ${u_order_id}</p>
-<p>To access the order <a href="https://dev247918.service-now.com/now/nav/ui/classic/params/target/x_58872_needit_orders.do%3Fsys_id%3D%20${sys_id}%26sysparm_domain%3Dnull%26sysparm_domain_scope%3Dnull%26sysparm_record_list%3DORDERBYnumber%26sysparm_record_row%3D4%26sysparm_record_rows%3D4%26sysparm_view%3D">click here</a></p>
-<p>&nbsp;</p>]]></message_html>
+<p>To access the order <a href="https://dev247918.service-now.com/now/nav/ui/classic/params/target/x_58872_needit_orders.do%3Fsys_id%3D${sys_id}%26sysparm_record_target%3Dx_58872_needit_orders%26sysparm_record_row%3D1%26sysparm_record_rows%3D8%26sysparm_record_list%3DORDERBYnumber">click here</a></p>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>
+<section class="tableCopyClass"></section>]]></message_html>
         <message_list/>
         <message_text/>
         <name>send comments to the assignee</name>
@@ -67,7 +81,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>534a455553650210aa9058e0a0490e9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>send comments to the assignee</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -75,7 +89,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_534a455553650210aa9058e0a0490e9c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-12 20:57:56</sys_updated_on>
+        <sys_updated_on>2024-04-15 21:39:46</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

@@ -3,7 +3,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description>Make company and catalog offer read only after form is submitted</description>
+        <description>Make company and catalog offer read only after form is loaded</description>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
@@ -23,7 +23,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b203d9853ed4210aa9058e0a0490ea5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Make fields read only after submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -31,7 +31,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_5b203d9853ed4210aa9058e0a0490ea5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-09 20:59:21</sys_updated_on>
+        <sys_updated_on>2024-05-13 20:57:24</sys_updated_on>
         <table>x_58872_needit_orders</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
